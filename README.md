@@ -5,11 +5,12 @@ This is a personal project where I re-created **Bad Apple!!** using spectrograms
 
 ## See It
 
-- **Video:** [https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_HERE ](https://youtu.be/PvIkpahSdOw?si=Hc_uVQCwoMASK0bf) 
+- **Video:** [![Bad Apple!! — Spectrogram Remake](https://img.youtube.com/vi/PvIkpahSdOw/hqdefault.jpg)](https://www.youtube.com/watch?v=PvIkpahSdOw)
+
 - **Build Notes (Notion):** https://www.notion.so/Bad-Apple-Project-28a40e3f4f9380ff937af5771b81958c?source=copy_link
 - **Build Notes (PDF):** [View my Bad Apple notes (PDF)](bad_apple_notes.pdf)
 
-## Background: What’s “Bad Apple!!”?
+## What’s “Bad Apple!!”?
 
 **Bad Apple!!** is a black-and-white shadow-style animation that’s become an internet classic. Over the years, people have rebuilt it in every way imaginable, ASCII art, Minecraft redstone, Desmos, oscilloscopes, calculators, printers, apples, Roblox, you name it.
 
@@ -21,7 +22,7 @@ I’m currently working with RF signals and spectrograms at Purdue, so I wanted 
 
 ---
 
-## What I Actually Did (high level)
+## What I Actually Did 
 
 - Took the original Bad Apple!! video and broke it into frames.
 - Turned each frame into a spectrogram-style image (brightness ≈ energy).
