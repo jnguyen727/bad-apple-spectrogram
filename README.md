@@ -1,6 +1,6 @@
 # Bad Apple!! but I animated it using Spectrograms
 
-This is a personal project where I re-created **Bad Apple!!** using spectrograms. I did this purely for fun and out of my curiosity.
+This is a personal project where I re-created **Bad Apple!!** using spectrograms. 
 ---
 
 ## See It
