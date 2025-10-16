@@ -6,7 +6,7 @@ This is a personal project where I re-created **Bad Apple!!** using spectrograms
 ## See It
 
 - **Video:** [https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_HERE ](https://youtu.be/PvIkpahSdOw?si=Hc_uVQCwoMASK0bf) 
-- **Build Notes (Notion):** https://www.notion.so/YOUR_NOTES_PAGE
+- **Build Notes (Notion):** https://www.notion.so/Bad-Apple-Project-28a40e3f4f9380ff937af5771b81958c?source=copy_link
 - **Build Notes (PDF):** [View my Bad Apple notes (PDF)](bad_apple_notes.pdf)
 
 ## Background: What’s “Bad Apple!!”?
