@@ -13,6 +13,7 @@ This is a personal project where I re-created **Bad Apple!!** using spectrograms
 ## What’s “Bad Apple!!”?
 
 **Bad Apple!!** is a black-and-white shadow-style animation that’s become an internet classic. Over the years, people have rebuilt it in every way imaginable, ASCII art, Minecraft redstone, Desmos, oscilloscopes, calculators, printers, apples, Roblox, anything you can imagine, it's probably been animated.
+https://www.youtube.com/watch?v=FtutLA63Cp8
 
 ---
 
