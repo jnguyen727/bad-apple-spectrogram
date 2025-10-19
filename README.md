@@ -1,11 +1,12 @@
 # Bad Apple!! but I animated it using Spectrograms
 
 This is a personal project where I re-created **Bad Apple!!** using spectrograms. 
+
 ---
 
 ## See It
 
-- **Video:** https://www.youtube.com/watch?v=PvIkpahSdOw [![Bad Apple!! — Spectrogram Remake](https://img.youtube.com/vi/PvIkpahSdOw/hqdefault.jpg)](https://www.youtube.com/watch?v=PvIkpahSdOw)
+- **Video:** https://www.youtube.com/watch?v=PvIkpahSdOw ![Bad Apple Spectrogram](badapplegiif.gif)(https://www.youtube.com/watch?v=PvIkpahSdOw)
 
 - **Build Notes (Notion):** https://www.notion.so/Bad-Apple-Project-28a40e3f4f9380ff937af5771b81958c?source=copy_link
 - **Build Notes (PDF):** [View my Bad Apple notes (PDF)](bad_apple_notes.pdf)
