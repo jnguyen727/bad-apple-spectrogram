@@ -26,6 +26,14 @@ https://www.youtube.com/watch?v=6QY4ekac1_Q&pp=ygUQYmFkIGFwcGxlIG9yaWdpbg%3D%3D
 I’m currently working with RF signals and spectrograms at Purdue, so I wanted to see if I could “re-animate” Bad Apple!! through that lens. Instead of pixels on a screen, I map visuals into the time–frequency world and then render them as spectrogram frames.
 
 ---
+## How it works
+My Bad Apple Spectrogram project works by taking each frame of the Bad Apple music video and turning it into sound, then visualizing that sound as a spectrogram. The idea is that an image can be represented as a matrix of brightness values, and those brightness values can be mapped to sound frequencies. I start by extracting each frame using FFmpeg, then I load the frame in Python using Pillow and convert it to grayscale so I only have to work with brightness instead of full RGB color. I normalize the brightness values between 0 and 1, where 0 represents a dark pixel and 1 represents a bright one.
+
+Once I have that data, I iterate through the image column by column, from left to right, and within each column from top to bottom. Each pixel’s position in the column determines its frequency where pixels at the top correspond to higher frequencies, and pixels at the bottom correspond to lower ones. The brightness of the pixel controls how loud that frequency plays. For each column, I generate a short snippet of audio by adding together sine waves at the frequencies corresponding to the pixel rows, scaling each one by its brightness. Each snippet is about 0.05 seconds long, or 2,400 samples at a 48 kHz sampling rate.
+
+After doing this for every column, I combine all those short snippets into one long waveform that represents the entire frame. Then, by running a Fourier Transform on that waveform, I can visualize how the frequencies change over time. The resulting spectrogram ends up redrawing the original image, since the brightness and frequency relationships in the sound directly correspond to those in the frame.
+
+---
 
 ## What I Actually Did 
 
